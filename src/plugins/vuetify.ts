@@ -15,5 +15,21 @@ import { createVuetify } from 'vuetify'
 export default createVuetify({
   theme: {
     defaultTheme: 'system',
+    themes: {
+      myTheme: {
+        dark: false,
+        colors: {
+          primary: '#9971b1', // color para app-bar y otros elementos primarios
+          secondary: '#77498d', // color para botones o acentos
+  },
+  
+      },
+    },
   },
 })
+
+// src/plugins/vuetify.ts
+
+
+
+

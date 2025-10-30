@@ -54,7 +54,7 @@
   }
   const items = [
     { title: 'Gastos', route: '/gastos' },
-    { title: 'Bar', route: '/bar' },
+    { title: 'VerGastos', route: '/vergastos' },
     { title: 'Fizz', route: '/fizz' },
     { title: 'Buzz', route: '/buzz' },
   ]

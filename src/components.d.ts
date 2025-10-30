@@ -15,5 +15,6 @@ declare module 'vue' {
     OfflineDialog: typeof import('./components/OfflineDialog.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VerGastos: typeof import('./components/VerGastos.vue')['default']
   }
 }

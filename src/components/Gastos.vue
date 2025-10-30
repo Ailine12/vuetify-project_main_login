@@ -1,4 +1,5 @@
 <template>
+  <MainLayout>
   <v-container>
     <v-card class="pa-4">
       <v-card-title class="text-h5">Registrar Nuevo Gasto 💸</v-card-title>
@@ -34,7 +35,7 @@
           ></v-textarea>
 
           <v-btn
-            color="primary"
+            style="background-color: #77498d; color: white;"
             class="mt-4"
             type="submit"
             :loading="loading"
@@ -57,10 +58,12 @@
       </v-card-text>
     </v-card>
   </v-container>
+  </MainLayout>
 </template>
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue';
+import MainLayout from '@/layouts/MainLayout.vue';
 // Importa tu instancia de Axios configurada con el interceptor
 import api from '@/config/axios'; // Ajusta la ruta si es necesario
 

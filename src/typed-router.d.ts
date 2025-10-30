@@ -21,6 +21,7 @@ declare module 'vue-router/auto-routes' {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/gastos': RouteRecordInfo<'/gastos', '/gastos', Record<never, never>, Record<never, never>>,
     '/home': RouteRecordInfo<'/home', '/home', Record<never, never>, Record<never, never>>,
+    '/vergastos': RouteRecordInfo<'/vergastos', '/vergastos', Record<never, never>, Record<never, never>>,
   }
 
   /**
@@ -44,6 +45,10 @@ declare module 'vue-router/auto-routes' {
     }
     'src/pages/home.vue': {
       routes: '/home'
+      views: never
+    }
+    'src/pages/vergastos.vue': {
+      routes: '/vergastos'
       views: never
     }
   }
